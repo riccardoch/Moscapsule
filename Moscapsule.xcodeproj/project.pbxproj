@@ -507,13 +507,13 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"./submodules/OpenSSL/include-ios",
+					"./submodules/OpenSSL/include/ios",
 				);
 				INFOPLIST_FILE = Moscapsule/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "./submodules/OpenSSL/lib-ios";
+				LIBRARY_SEARCH_PATHS = "./submodules/OpenSSL/lib/ios";
 				OTHER_CFLAGS = (
 					"-DWITH_THREADING",
 					"-DWITH_TLS",
@@ -545,13 +545,13 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"./submodules/OpenSSL/include-ios",
+					"./submodules/OpenSSL/include/ios",
 				);
 				INFOPLIST_FILE = Moscapsule/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "./submodules/OpenSSL/lib-ios";
+				LIBRARY_SEARCH_PATHS = "./submodules/OpenSSL/lib/ios";
 				OTHER_CFLAGS = (
 					"-DWITH_THREADING",
 					"-DWITH_TLS",
